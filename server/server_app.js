@@ -1,11 +1,11 @@
-const express = require('express'),
+var express = require('express'),
     path = require('path'),
     logger = require('morgan'),
     cookieParser = require('cookie-parser'),
     bodyParser = require('body-parser'),
     app = express();
 
-let calledBefore = false;
+var calledBefore = false;
 
 
 module.exports = function() {
